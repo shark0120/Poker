@@ -1,0 +1,3 @@
+# 私人素材（影音、劇照）只留在本機，不進版控
+assets/private/*
+!assets/private/.gitkeep

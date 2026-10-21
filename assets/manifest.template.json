@@ -1,0 +1,27 @@
+{
+  "characters": [
+    {
+      "id": "ken",
+      "name": "（角色名）",
+      "role": "dealer",
+      "portrait": "images/characters/ken.png"
+    }
+  ],
+  "voice_lines": [
+    {
+      "character": "ken",
+      "event": "HAND_START",
+      "audio": "audio/voice/ken_dealer_start_01.mp3",
+      "subtitle": "（字幕文字）",
+      "visibility": "public"
+    }
+  ],
+  "bgm": [
+    { "scene": "lobby", "audio": "audio/bgm/lobby.mp3" },
+    { "scene": "table_calm", "audio": "audio/bgm/table_calm.mp3" },
+    { "scene": "table_tense", "audio": "audio/bgm/table_tense.mp3" }
+  ],
+  "sfx": [
+    { "event": "BAD_BEAT", "audio": "audio/sfx/twist.mp3" }
+  ]
+}
